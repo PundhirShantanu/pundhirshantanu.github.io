@@ -1,0 +1,39 @@
+
+.container{
+    position: sticky;
+    border:2px;
+   
+    width: 4px;
+    height: 45px;
+    font-weight: bold;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    border-radius: 14px;
+    margin-top: -114px;
+    margin-left: 637px;
+    padding-left: 0px;
+    padding-right: 20px;
+
+}
+a{
+    font-size: 30px;
+    color: rgb(56, 237, 225);
+    text-decoration:wavy;
+    display: inline-block;
+    margin-left: 73px;
+    
+    
+
+}
+.navbar:hover,
+.navbar:active {
+        text-decoration:overline underline;
+        color: rgb(219, 17, 17);
+        transition: transform 0.2s;
+        transform: translateY(-5px);
+}
+
+
