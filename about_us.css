@@ -34,3 +34,52 @@ body{
     margin-top: -41%;
     font:bold;
 }
+.container{
+    margin-left: 50%;
+    font-size: 30px;
+    display: inline-block;
+    display: flex;
+    font-style:unset ;
+    align-items: center;
+    color: rgb(22, 188, 177);
+    margin-top: -44px;
+    
+    
+
+} 
+.abc{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 21px;
+    font-weight: bold;
+    color: rgb(15, 165, 155);
+    
+}
+
+#dpt-1{
+    padding-right: 63px;
+}
+#dpt-2{
+    padding-right: 63px;
+}
+#dpt-3{
+    padding-right: 63px;
+}
+#dpt-4{
+    padding-right: 33px;
+}
+
+.navbar:hover,
+.navbar:active {
+        text-decoration:overline underline;
+        color: rgb(219, 17, 17);
+        transition: transform 0.2s;
+        transform: translateY(-5px);
+}
+.heading{
+    box-sizing: border-box;
+    display: inline-block;
+    display: flex;
+    font-size: 30px;
+}
