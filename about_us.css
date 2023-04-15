@@ -1,15 +1,15 @@
-body{
+body {
     font-family: 'Rubik Pixels', cursive;
     background-repeat: no-repeat;
-
 }
 
-.para{
+.para {
     display: flex;
     border: 2px;
     margin-right: 12px;
 }
-.mahapara{
+
+.mahapara {
     box-sizing: border-box;
     display: inline-block;
     object-position: 50px 30px;
@@ -17,69 +17,88 @@ body{
     background-size: cover;
     margin-top: 0px;
     padding-left: 0%;
-    
     border: 2px;
     margin-left: 35%;
     padding-top: 0%;
     padding-bottom: 0%;
 }
-.poslef{
+
+.poslef {
     margin-right: 50%;
 }
-.para2{
+
+.para2 {
     box-sizing: border-box;
     display: inline-block;
-    border: 2px ;
+    border: 2px;
     margin-right: 65%;
     margin-top: -41%;
-    font:bold;
+    font: bold;
 }
-.container{
+
+.container {
     margin-left: 50%;
     font-size: 30px;
     display: inline-block;
     display: flex;
-    font-style:unset ;
+    font-style: unset;
     align-items: center;
     color: rgb(22, 188, 177);
     margin-top: -44px;
-    
-    
+}
 
-} 
-.abc{
+.abc {
     display: flex;
     text-decoration: none;
     list-style-type: none;
     padding: 21px;
     font-weight: bold;
     color: rgb(15, 165, 155);
-    
 }
 
-#dpt-1{
+#dpt-1 {
     padding-right: 63px;
 }
-#dpt-2{
+
+#dpt-2 {
     padding-right: 63px;
 }
-#dpt-3{
+
+#dpt-3 {
     padding-right: 63px;
 }
-#dpt-4{
+
+#dpt-4 {
     padding-right: 33px;
 }
 
 .navbar:hover,
 .navbar:active {
-        text-decoration:overline underline;
-        color: rgb(219, 17, 17);
-        transition: transform 0.2s;
-        transform: translateY(-5px);
+    text-decoration: overline underline;
+    color: rgb(219, 17, 17);
+    transition: transform 0.2s;
+    transform: translateY(-5px);
 }
-.heading{
+
+.heading {
     box-sizing: border-box;
     display: inline-block;
     display: flex;
     font-size: 30px;
+}
+
+/* Responsive Adjustments */
+
+@media screen and (max-width: 768px) {
+    .mahapara {
+        margin-left: 10%;
+    }
+    .para2 {
+        margin-right: 10%;
+        margin-top: -41%;
+    }
+    .container {
+        margin-left: 10%;
+        font-size: 20px;
+    }
 }
